@@ -1,7 +1,8 @@
 # LIBFT
 
 <img width="200" alt="Screen Shot 2021-11-19 at 2 48 11 PM" src="https://user-images.githubusercontent.com/49567393/142633153-611308fc-6fbc-4bd8-bf70-0d99b910886c.png">
-### What is libft?
+# What is libft?
+
 *Libft* is an individual project at [1337](https://1337.ma) that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 
 Disclaimer: *Reinventing the wheel is bad, 1337 makes us do this just so we can have a deeper understanding of data structures and basic algorithms. At 1337 we're not allowed to use some standard libraries on our projects, so we have to keep growing this library with our own functions as we go farther in the program.*
