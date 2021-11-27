@@ -7,6 +7,11 @@
 
 Disclaimer: *Reinventing the wheel is bad, 1337 makes us do this just so we can have a deeper understanding of data structures and basic algorithms. At 1337 we're not allowed to use some standard libraries on our projects, so we have to keep growing this library with our own functions as we go farther in the program.*
 
+See the subjects for further information
+
+[SUBJECT](subject/en.subject.pdf)
+
+
 ### What's in it?
 
 ## Part 1
