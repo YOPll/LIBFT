@@ -9,7 +9,7 @@ Disclaimer: *Reinventing the wheel is bad, 1337 makes us do this just so we can 
 
 See the subjects for further information
 
-[SUBJECT](subject/en.subject.pdf)
+[SUBJECT](Subject/en.subject.pdf)
 
 
 ### What's in it?
