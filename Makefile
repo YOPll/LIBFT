@@ -1,5 +1,7 @@
 NAME := libft.a
 
+CC := cc
+
 CFILES :=	ft_atoi.c\
 	  	ft_bzero.c\
 	  	ft_calloc.c\
@@ -65,7 +67,7 @@ bonus: $(OBJBS)
 	ar -crs $(NAME) $(OBJBS)
 
 %.o : %.c $(HEADER)
-	gcc $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -c $<
 
 clean:
 	rm -f $(OBJBS)
