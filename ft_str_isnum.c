@@ -1,25 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_str_isnum.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yopi <yopi@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: zyacoubi <zyacoubi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/02 13:12:28 by zyacoubi          #+#    #+#             */
-/*   Updated: 2022/01/14 02:25:44 by yopi             ###   ########.fr       */
+/*   Created: 2022/01/14 02:16:24 by zyacoubi          #+#    #+#             */
+/*   Updated: 2022/01/14 02:17:41 by zyacoubi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlen(const char *s)
+int	ft_str_isnum(char *str)
 {
 	int	i;
 
-	if (!s)
-		return (0);
 	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	while (str[i] >= '0' && str[i] <= '9')
+	{
+		++i;
+		if (str[i] == '\0')
+			return (1);
+	}
+	return (0);
 }
